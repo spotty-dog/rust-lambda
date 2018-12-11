@@ -1,0 +1,15 @@
+[package]
+name = "rust-lambda"
+version = "0.1.0"
+authors = ["brad <brad@localhost>"]
+autobins = false
+
+[dependencies]
+lambda_runtime = "0.1.0"
+serde = "1.0.80"
+serde_derive = "1.0.80"
+serde_json = "1.0.33"
+
+[[bin]]
+name = "bootstrap"
+path = "src/main.rs"
